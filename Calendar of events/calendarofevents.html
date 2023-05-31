@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Association P'tit don - calendrier des événements</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../Calendar of events/calendarofevents.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Création de la navbar responsive -->
+      <nav
+        class="navbar navbar-expand-md fixed-top bg-body-tertiary bg-dark"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <!-- Création du logo de la navbar -->
+          <a class="navbar-brand" href="../index.html">Association P'tit Don</a>
+          <!-- Création du contenu de la navbar -->
+          <div class="collapse navbar-collapse text-primary" id="menu">
+            <ul class="navbar-nav">
+              <!-- Item contenu dans la navbar -->
+              <li class="nav-item">
+                <a href="../index.html" class="nav-link" aria-current="true"
+                  >Accueil</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="../Whoarewe/whoarewe.html" class="nav-link"
+                  >Qui sommes nous ?</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="../Calendar of events/calendarofevents.html"
+                  class="nav-link active"
+                  >Calendrier des événements</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Création du menu hamburger sur le côté + ajout icône du menu -->
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div
+        class="container-fluid d-flex justify-content-center align-items-center"
+        style="height: 150px; position: absolute; top: 60px"
+      >
+        <h1 style="font-family: 'Roboto', sans-serif; font-weight: 300">
+          Bienvenue sur le site officiel de l'association P'tit Don
+        </h1>
+      </div>
+      <!-- CAROUSEL -->
+    </main>
+    <footer>
+      <div
+        class="container-fluid flex-column fixed-bottom bg-dark justify-content-center text-white pb-3 pb-sm-2 pb-lg-1"
+      >
+        <!-- Copyright -->
+        <div class="text-center p-3">
+          © 2023 Copyright:
+          <a class="text-white" href="https://google.fr/"
+            >Associationptitdon.fr</a
+          >
+        </div>
+        <!-- Copyright -->
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
+</html>
